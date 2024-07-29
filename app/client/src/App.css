@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 64px;
+    font-family: Arial, sans-serif;
+    border: 12px solid black;
+}
+
+.content {
+    flex: 1;
+    /* Takes up all available space */
+}

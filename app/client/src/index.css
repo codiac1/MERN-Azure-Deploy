@@ -1,0 +1,32 @@
+/* src/index.css or App.css */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+}
+
+.footer {
+  position:sticky;
+  bottom: 0;
+  
+  padding: 7px;
+  max-height: 50px;
+}
+
+.content {
+  margin-top: 64px;
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
